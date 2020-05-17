@@ -1,0 +1,196 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <!-- Head -->
+  <head>
+    <title>Contacts | Stream - UI Kit</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="Bootstrap Theme, Freebies, UI Kit, MIT license">
+    <meta name="description" content="Stream - UI Kit">
+    <meta name="author" content="htmlstream.com">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Web Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Web Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'base/vendor/bootstrap/css/bootstrap.css' %}">
+
+    <!-- Components Vendor Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'base/vendor/font-awesome/css/fontawesome-all.min.css' %}">
+
+    <!-- Theme Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'base/css/styles.css' %}">
+    
+<!-- Start of Async Callbell Code -->
+<script>
+    window.callbellSettings = {
+      token: "MPaqERGv4wcUWynYz7RycjEt"
+    };
+  </script>
+  <script>
+    (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+  </script>
+  <!-- End of Async Callbell Code -->
+  
+  </head>
+  <!-- End Head -->
+
+  <body>
+    <!-- Header -->
+    <header>
+      {% block promo_blok %} {% endblock %}
+    </header>
+    <!-- End Header -->
+    {% block page_content %}
+    <main role="main">
+      <!-- Icon Block -->
+      <section class="container-fluid">
+        <div class="row text-center u-icon-block">
+          <!-- Icon Block Column -->
+          <div class="col-lg-4 u-icon-block__col">
+            <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+              <span class="fas fa-map u-icon__inner text-white"></span>
+            </span>
+            <h3 class="h5">Address</h3>
+            <p class="mb-0">61 Oxford str., London, 3DG</p>
+          </div>
+          <!-- End Icon Block Column -->
+
+          <!-- Icon Block Column -->
+          <div class="col-lg-4 u-icon-block__col u-icon-block__col--left-brd">
+            <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+              <span class="fas fa-mobile u-icon__inner text-white"></span>
+            </span>
+            <h3 class="h5">Phone Number</h3>
+            <p class="mb-0">1-800-643-4500</p>
+          </div>
+          <!-- End Icon Block Column -->
+
+          <!-- Icon Block Column -->
+          <div class="col-lg-4 u-icon-block__col u-icon-block__col--left-brd">
+            <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+              <span class="fas fa-envelope-open u-icon__inner text-white"></span>
+            </span>
+            <h3 class="h5">Email</h3>
+            <p class="mb-0">mail@htmlstream.com</p>
+          </div>
+          <!-- End Icon Block Column -->
+        </div>
+      </section>
+      <!-- End Icon Block -->
+
+      <!-- Contact Form -->
+      <section class="u-content-space">
+        <div class="container">
+          <header class="text-center w-md-50 mx-auto mb-8">
+            <h2 class="h1">Tell us about yourself</h2>
+            <p class="h5">Your business needs a little push. We strive to figure out ways to help your audience grow.</p>
+          </header>
+
+          <form class="text-center w-md-75 mx-auto" action="#">
+            <div class="row">
+              <div class="col-lg-6 form-group mb-4">
+                <input class="form-control form-control-lg" placeholder="Name" type="text">
+              </div>
+
+              <div class="col-lg-6 form-group mb-4">
+                <input class="form-control form-control-lg" placeholder="Email" type="email">
+              </div>
+
+              <div class="col-lg-6 form-group mb-4">
+                <input class="form-control form-control-lg" placeholder="Subject" type="text">
+              </div>
+
+              <div class="col-lg-6 form-group mb-4">
+                <input class="form-control form-control-lg" placeholder="Phone" type="tel">
+              </div>
+
+              <div class="col-lg-12 form-group mb-6">
+                <textarea class="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button class="btn btn-lg btn-primary py-3 px-4" type="submit">Send Your Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Contact Form -->
+    </main>
+    {% endblock %}
+    {% block shop %} {% endblock %}
+    {% block services %} {% endblock %}
+    {% block contact %} {% endblock %}
+    {% block footer_bar %}
+    <!-- Footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-center text-md-left mb-3 mb-md-0">
+            <small class="text-white">&copy; 2020 <a class="text-white" href="https://htmlstream.com">||--||</a>. scristian.</small>
+          </div>
+
+          <div class="col-md-4 align-self-center">
+            <ul class="list-inline text-center text-md-right mb-0">
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <a class="text-white" target="_blank" href="https://www.facebook.com/htmlstream">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Instagram">
+                <a class="text-white" target="_blank" href="https://www.instagram.com/htmlstream">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <a class="text-white" target="_blank" href="https://twitter.com/htmlstream">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Dribbble">
+                <a class="text-white" target="_blank" href="https://dribbble.com/htmlstream">
+                  <i class="fab fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    {% endblock %}
+
+   
+
+    <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
+    <!-- Global Vendor -->
+    <script src="{% static 'base/vendor/jquery.min.js' %}"></script>
+    <script src="{% static 'base/vendor/jquery.migrate.min.js' %}"></script>
+    <script src="{% static 'base/vendor/popper.min.js' %}"></script>
+    <script src="{% static 'base/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+
+    <!-- Components Vendor  -->
+    <script src="{% static 'base/vendor/jquery.parallax.js' %}"></script>
+
+    <!-- Theme Settings and Calls -->
+    <script src="{% static 'base/js/global.js' %}"></script>
+
+    <!-- Theme Components and Settings -->
+    <script src="{% static 'base/js/vendors/parallax.js' %}"></script>
+    <script src="{% static 'base/particulas/js/particles.js' %}"></script>
+    <script src="{% static 'base/particulas/js/app.js' %}"></script>
+    <!-- END JAVASCRIPTS -->
+  </body>
+  <!-- End Body -->
+</html>

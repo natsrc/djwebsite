@@ -1,0 +1,720 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <!-- Head -->
+  <head>
+    <title>Home Page | sc</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="Bootstrap Theme, Freebies, UI Kit, MIT license">
+    <meta name="description" content="Stream - UI Kit">
+    <meta name="author" content="htmlstream.com">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Web Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'base/vendor/bootstrap/css/bootstrap.css' %}">
+
+    <!-- Components Vendor Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'base/vendor/font-awesome/css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'base/vendor/slick-carousel/slick.css' %}">
+
+    <!-- Theme Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'base/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'base/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'base/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'base/css/ionicons.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'base/css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/jquery.timepicker.css' %}">
+
+    
+    <link rel="stylesheet" href="{% static 'base/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/icomoon.css' %}">  
+
+    <style type="text/css">
+	</style>
+	<style >
+		.mySlides{
+			max-width: 100%;
+		}
+    
+    </style>
+    
+<!-- Start of Async Callbell Code -->
+<script>
+  window.callbellSettings = {
+    token: "MPaqERGv4wcUWynYz7RycjEt"
+  };
+</script>
+<script>
+  (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+</script>
+<!-- End of Async Callbell Code -->
+
+
+  </head>
+  <!-- End Head -->
+
+  <body class="bg-gradient-primary">
+    <!-- Header -->
+   
+    <header>
+    {% block side_bar%}
+  
+      <!-- Navbar -->
+      <nav class="js-navbar-scroll navbar fixed-top navbar-expand-lg navbar-dark">
+        
+        <div class="container-fluid " >
+          <a class="navbar-brand" href="home-page.html">
+            <img src="{% static 'base/img/logo-white.png' %}" alt="Stream UI Kit" style="width: 100px;">
+          </a>
+
+          <button class="navbar-toggler" type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarTogglerDemo"
+
+                  aria-controls="navbarTogglerDemo"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+              <li class="nav-item mr-4 mb-2 mb-lg-0">
+                <a class="nav-link active" href="index.html">MultiServicios S.A.C</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item mr-4 mb-2 mb-lg-0">
+                <a class="nav-link active" href="/">Home</a>
+              </li>
+              <li class="nav-item dropdown mr-4 mb-2 mb-lg-0">
+                <a class="nav-link" href="/shop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Tienda <i class="fas fa-angle-down small ml-1"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/shop">Tienda </a>
+                  <a class="dropdown-item" href="carrito">Carrito</a>
+                  <a class="dropdown-item" href="about-me.html">Lista de productos</a>
+                </div>
+              </li>
+              <li class="nav-item mr-4 mb-2 mb-lg-0">
+                <a class="nav-link" href="services">Servicios</a>
+              </li>
+              <li class="nav-item dropdown mr-4 mb-2 mb-lg-0">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Acerca de <i class="fas fa-angle-down small ml-1"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about-us.html">Sobre nosotros </a>
+                  <a class="dropdown-item" href="about-me.html">misión</a>
+                  <a class="dropdown-item" href="about-me.html">visión</a>
+                </div>
+              </li>
+              <li class="nav-item mr-4 mb-2 mb-lg-0">
+                <a class="nav-link" href="contacts">Contactos</a>
+              </li>
+              <li class="nav-item cta cta-colored"><a href="" class="nav-link"><i class="fas fa-shopping-cart"></i>[0]  </a></li>
+            </ul>
+            <div>
+              <a class="btn btn-primary" data-toggle="modal" href="#callUsModal">
+                <i class="fas fa-phone-square mr-1"></i> Contáctenos
+              </a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+	  {% endblock %}
+      <!-- End Navbar -->
+      <div id="particles-js" style="position: absolute; left: 10px; top: 2px; z-index: 1;"></div>
+	  <!-- Promo Block -->
+    {% block promo_blok %}
+    <div class=" u-promo-block--mheight-1000 u-overlay u-overlay--dark text-white">
+	    <img class="mySlides" src="{% static 'base/img-temp/1920x1080/img6.jpg' %}">
+      <img class="mySlides" src="{% static 'base/img-temp/1920x1080/img5.jpg' %}">
+      <img class="mySlides" src="{% static 'base/img-temp/1920x1080/img8.jpg' %}">
+      <img class="mySlides" src="{% static 'base/img-temp/1920x1080/img10.jpg' %}">
+        <!-- Promo Content -->
+        <div class="container u-overlay__inner u-ver-center u-content-space">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="text-center">
+                <h2 class="text-uppercase u-letter-spacing-sm mb-0">Nuestros servicos</h2>
+                <h1 class="display-sm-4 display-lg-3 mb-3"> <span class="js-display-typing"></span></h1>
+                <a class="btn btn-primary" href="services.html">
+                  Leer mas <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+  
+     
+	  {% endblock %}
+      <!-- End Promo Block -->
+    </header>
+    <!-- End Header -->
+	{% block page_content %}
+    <main role="main">
+      <!-- Clients Section -->
+      <section class="js-clients u-clients">
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img1.png' %}" alt="Image Description">
+        </div>
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img2.png' %}" alt="Image Description">
+        </div>
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img3.png' %}" alt="Image Description">
+        </div>
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img4.png' %}" alt="Image Description">
+        </div>
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img5.png' %}" alt="Image Description">
+        </div>
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img6.png' %}" alt="Image Description">
+        </div>
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img7.png' %}" alt="Image Description">
+        </div>
+        <div class="u-clients__item">
+          <img class="u-clients__image" src="{% static 'base/img-temp/partners/img8.png' %}" alt="Image Description">
+        </div>
+      </section>
+      <!-- End Clients Section -->
+
+      <!-- Why We? -->
+      <section class="u-content-space">
+        <div class="container">
+          <header class="text-center w-md-50 mx-auto mb-8">
+            <h2 class="h1">Nosotros</h2>
+            <p class="h5">blbfsg <strong>gfdgf</strong> blablaba</p>
+          </header>
+
+          <!-- Row -->
+          <div class="row text-center">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="display-4 text-primary mb-2">
+                <i class="fab fa-grav"></i>
+              </div>
+              <h4 class="h5">TRablao</h4>
+              <p>Proyectos de cualquier tipo, para instituciones </p>
+              <a href="#!">
+                Leer mas <i class="fas fa-arrow-right ml-1"></i>
+              </a>
+            </div>
+
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="display-4 text-primary mb-2">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+              <h4 class="h5">Tienda</h4>
+              <p>Encuentre todo tipo artículos de libreria, regalos, juguetes, etc.</p>
+              <a href="#!">
+                Leer mas <i class="fas fa-arrow-right ml-1"></i>
+              </a>
+            </div>
+
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="display-4 text-primary mb-2">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+              </div>
+              <h4 class="h5">Tecnología</h4>
+              <p>Reparación y mantenimiento de computadoras</p>
+              <a href="#!">
+                Leer mas <i class="fas fa-arrow-right ml-1"></i>
+              </a>
+            </div>
+          </div>
+          <!-- End Row -->
+        </div>
+      </section>
+      <!-- End Why We? -->
+
+      <!-- Stats -->
+      <section class="bg-light position-relative u-hero-img u-overlay u-overlay--dark" style="background-position: 50% 65%; background-image: url(static/base/img-temp/1920x1080/img4.jpg);">
+        <div class="container u-overlay__inner pt-8">
+          <div class="row text-center text-uppercase text-white">
+            <div class="col-lg-3 col-sm-6 pb-8">
+              <h1 class="d-block font-style-normal text-uppercase u-letter-spacing-sm">Contactos</h1>
+              
+            </div>
+
+            <div class="col-lg-3 col-sm-6 pb-8">
+              <h5 class="js-counter display-4 mb-1">123456</h5>
+              <small class="d-block font-style-normal text-uppercase u-letter-spacing-sm">Teléfono</small>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 pb-8">
+              <h5 class="js-counter display-4 mb-1">1123424</h5>
+              <small class="d-block font-style-normal text-uppercase u-letter-spacing-sm">Correo</small>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 pb-8">
+              <h5 class="js-counter display-4 mb-1">5751234</h5>
+              <small class="d-block font-style-normal text-uppercase u-letter-spacing-sm">WhatsApp</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Stats -->
+
+      <!-- Our Product -->
+      <section class="u-content-space">
+        <div class="container">
+          <div class="row">
+            <!-- Article Content -->
+            <div class="col-lg-6 align-self-center mb-5 mb-lg-0 pr-lg-5">
+              <header class="mb-5">
+                <h2 class="h1">Nuestros Productos, Servicios</h2>
+                <p class="h5">Muy lejos, detrás de la palabra montañas, lejos de los países Vokalia y Consonantia, viven los textos ciegos. Separados viven en</p>
+              </header>
+
+              <p class="mb-4">Muy lejos, detrás de la palabra montañas, lejos de los países Vokalia y Consonantia, viven los textos ciegos. Separados viven en</p>
+
+              <a class="mr-4" href="#!">
+                <i class="fab fa-google-play mr-1"></i> Google Play
+              </a>
+              <a href="#!">
+                <i class="fab fa-app-store-ios mr-1"></i> App Store
+              </a>
+            </div>
+            <!-- End Article Content -->
+
+            <!-- Article Image -->
+            <div class="col-lg-6 align-self-center">
+              <img class="img-fluid rounded" src="{% static 'base/img-temp/900x700/img2.jpg' %}" alt="Image Description">
+            </div>
+            <!-- End Article Image -->
+          </div>
+        </div>
+      </section>
+      <!-- End Our Product -->
+       <!-- Portfolio -->
+       <section class="u-content-space">
+        <div class="container">
+          <header class="text-center w-md-50 mx-auto mb-8">
+            <h2 class="h1">PORTAFOLIO</h2>
+            <p class="h5">Algunos de nuestos trabajos</p>
+          </header>
+
+          <ul class="js-shuffle-controls u-portfolio-controls text-center mb-5">
+            <li class="u-portfolio-controls__item"><a href="#!" data-group="all" class="active">Todo</a></li>
+            <li class="u-portfolio-controls__item"><a href="#!" data-group="its-illustration">Tecnología</a></li>
+            <li class="u-portfolio-controls__item"><a href="#!" data-group="its-design">Diseño</a></li>
+            <li class="u-portfolio-controls__item"><a href="#!" data-group="its-graphic">Tienda</a></li>
+            <li class="u-portfolio-controls__item"><a href="#!" data-group="its-logo">Manualidades</a></li>
+          </ul>
+
+          <!-- Work Content -->
+          <div class="js-shuffle u-portfolio row no-gutters mb-6">
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img1.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">IX Project</h6>
+                <small class="d-block">Branding</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img1.jpg' %}">Zoom</a>
+            </figure>
+
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-design"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img2.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">Bottle Design</h6>
+                <small class="d-block">Mock-up</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img2.jpg' %}">Zoom</a>
+            </figure>
+
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img3.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">App Development</h6>
+                <small class="d-block">Åpp</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img3.jpg' %}">Zoom</a>
+            </figure>
+
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-logo"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img4.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">Just Bored</h6>
+                <small class="d-block">Free time</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img4.jpg' %}">Zoom</a>
+            </figure>
+
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img5.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">Cake Lab</h6>
+                <small class="d-block">Graphic</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img5.jpg' %}">Zoom</a>
+            </figure>
+
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img6.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">NB Project</h6>
+                <small class="d-block">Logo</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img6.jpg' %}">Zoom</a>
+            </figure>
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img1.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">IX Project</h6>
+                <small class="d-block">Branding</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img1.jpg' %}">Zoom</a>
+            </figure>
+
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-design"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img2.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">Bottle Design</h6>
+                <small class="d-block">Mock-up</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img2.jpg' %}">Zoom</a>
+            </figure>
+
+            <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>
+              <img class="u-portfolio__image" src="{% static 'base/img-temp/portfolio/img3.jpg' %}" alt="Image Description">
+              <figcaption class="u-portfolio__info">
+                <h6 class="mb-0">App Development</h6>
+                <small class="d-block">Åpp</small>
+              </figcaption>
+              <a class="js-popup-image u-portfolio__zoom" href="{% static 'base/img-temp/portfolio/img3.jpg' %}">Zoom</a>
+            </figure>
+
+            <!-- sizer -->
+            <figure class="col-sm-6 col-md-4 u-portfolio__item shuffle_sizer"></figure>
+          </div>
+          <!-- End Work Content -->
+
+          <!-- Clients -->
+          <div class="text-center">
+            <ul class="list-unstyled row justify-content-center mb-2">
+              <li class="col-sm-6 col-lg-2">
+                <img class="u-clients__image img-fluid" src="{% static 'base/img-temp/partners/img2.png' %}" alt="Image Description">
+              </li>
+              <li class="col-sm-6 col-lg-2">
+                <img class="u-clients__image img-fluid" src="{% static 'base/img-temp/partners/img3.png' %}" alt="Image Description">
+              </li>
+              <li class="col-sm-6 col-lg-2">
+                <img class="u-clients__image img-fluid" src="{% static 'base/img-temp/partners/img4.png' %}" alt="Image Description">
+              </li>
+              <li class="col-sm-6 col-lg-2">
+                <img class="u-clients__image img-fluid" src="{% static 'base/img-temp/partners/img5.png' %}" alt="Image Description">
+              </li>
+            </ul>
+            <p>buscanos <a href="contacts.html">jaja!</a></p>
+          </div>
+          <!-- End Clients -->
+        </div>
+      </section>
+      <!-- End Portfolio -->
+      <!-- Our Pricing -->
+      <section class="bg-light u-content-space">
+        <div class="container">
+          <!-- Our Pricing: Header -->
+          <header class="text-center w-md-50 mx-auto mb-8">
+            <h2 class="h1">Nos hubicamos</h2>
+            <p class="h5">información adicional</p>
+          </header>
+          <!-- End Our Pricing: Header -->
+
+          <div class="row align-items-lg-center">
+            <div class="col-lg-8 col-md-7">
+              <!-- Row -->
+              <div class="row mr-md-4 mb-lg-5">
+                <div class="col-lg-6 mb-5">
+                  <div class="display-4 text-primary mb-2">
+                    <i class="fa fa-map-marker" aria-hidden="false"></i>
+                  </div>
+                  <h4 class="h5">Dirección</h4>
+                  <p class="mb-0">28 de Julio N° 307 Santotomas-Chumbivilcas-Cusco-Perú</p>
+                </div>
+
+                <div class="col-lg-6 mb-5">
+                  <div class="display-4 text-primary mb-2">
+                    <i class="fas fa-bug"></i>
+                  </div>
+                  <h4 class="h5">Dirección</h4>
+                  <p class="mb-0">28 de Julio N° 307 Santotomas-Chumbivilcas-Cusco-Perú</p>
+                </div>
+              </div>
+              <!-- End Row -->
+
+              <!-- Row -->
+              <div class="row mr-md-4">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                  <div class="display-4 text-primary mb-2">
+                    <i class="fas fa-fire"></i>
+                  </div>
+                  <h4 class="h5">Dirección</h4>
+                  <p class="mb-0">28 de Julio N° 307 Santotomas-Chumbivilcas-Cusco-Perú.</p>
+                </div>
+
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                  <div class="display-4 text-primary mb-2">
+                    <i class="far fa-gem"></i>
+                  </div>
+                  <h4 class="h5">Dirección</h4>
+                  <p class="mb-0">28 de Julio N° 307 Santotomas-Chumbivilcas-Cusco-Perú</p>
+                </div>
+              </div>
+              <!-- End Row -->
+            </div>
+
+            <div class="col-lg-4 col-md-5">
+              <!-- Pricing -->
+              <article class="u-pricing u-box-shadow-sm text-center rounded">
+                <!-- Article Header -->
+                <header class="u-pricing__header bg-primary text-white rounded-top">
+                  <strong class="u-pricing__header-price display-4 font-weight-bold mb-2">
+                    <span class="h6 align-top"></span>HORARIOS<span class="h6"></span>
+                  </strong>
+
+                  <h3 class="u-pricing__header-title small text-uppercase u-letter-spacing-sm mb-4">atención</h3>
+
+                  <svg class="u-pricing__header-decoration" version="1.1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="70px" viewBox="0 0 300 70">
+                    <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z" opacity="0.6" fill="#fff"></path>
+                    <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z" opacity="0.6" fill="#fff"></path>
+                    <path d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z" opacity="0.7" fill="#fff"></path>
+                    <path d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z" fill="#fff"></path>
+                  </svg>
+                </header>
+                <!-- End Article Header -->
+
+                <!-- Article Content -->
+                <div class="u-pricing__content">
+                  <ul class="list-unstyled mb-5">
+                    <li class="mb-4">LUNES-----------</span> 06AM-10PM </span></li>
+                    <li class="mb-4">MARTES----------</span> 06AM-10PM </span></li>
+                    <li class="mb-4">MIERCOLES-----</span> 06AM-10PM </span></li>
+                    <li class="mb-4">JUEVES------------</span> 06AM-10PM </span></li>
+                    <li class="mb-4">VIERNES---------</span> 06AM-10PM </span></li>
+                    <li class="mb-4">SÁBADO---------</span> 06AM-10PM </span></li>
+                    <li class="mb-4">DOMINGO-------</span> 06AM-10PM </span></li>
+                  </ul>
+
+                  <a class="btn btn-primary py-3 px-4" href="#!">Order Now</a>
+                </div>
+                <!-- End Article Content -->
+              </article>
+              <!-- End Pricing -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Our Pricing -->
+  
+      <!-- Testimonials -->
+      <section class="u-content-space">
+        <div class="container">
+          <!-- Testimonials: Header -->
+          <header class="text-center w-md-50 mx-auto mb-8">
+            <h2 class="h1">Testimonios</h2>
+            <p class="h5">Nuestos clientes estan satisfechos de los trabajos realizados.</p>
+          </header>
+          <!-- End Testimonials: Header -->
+
+          <div class="row">
+            <div class="col-lg-6 mb-7 mb-lg-0 px-lg-5">
+              <!-- Testimonial -->
+              <blockquote class="u-blockquote-v2 rounded mb-5">Hola, hace unos días preste servicios de mantenimiento y  muy bien, me dieron una gran ayuda con algunos problemas de configuración complicados.</blockquote>
+              <div class="media u-font-size-90">
+                <img class="d-flex align-self-center rounded-circle u-blockquote-v2__image u-box-shadow-lg mx-3 mt-2" src="{% static 'base/img-temp/ava/img2.jpg' %}" alt="Image description">
+                <div class="media-body align-self-center">
+                  <strong class="d-block">jprge</strong>
+                  <span class="u-font-size-75 text-dark">trabajador</span>
+                </div>
+              </div>
+              <!-- End Testimonial -->
+            </div>
+
+            <div class="col-lg-6 px-lg-5">
+              <!-- Testimonial -->
+              <blockquote class="u-blockquote-v2 rounded mb-5">Hola, hace unos días preste servicios de mantenimiento y  muy bien, me dieron una gran ayuda con algunos problemas de configuración complicados.</blockquote>
+              <div class="media u-font-size-90">
+                <img class="d-flex align-self-center rounded-circle u-blockquote-v2__image u-box-shadow-lg mx-3 mt-2" src="{% static 'base/img-temp/ava/img3.jpg' %}" alt="Image description">
+                <div class="media-body align-self-center">
+                  <strong class="d-block">Carlos</strong>
+                  <span class="u-font-size-75 text-dark">Trabajador</span>
+                </div>
+              </div>
+              <!-- End Testimonial -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials -->
+	</main>
+	{% endblock %}
+
+	<!-- Footer -->
+	{% block footer_bar %}
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-center text-md-left mb-3 mb-md-0">
+            <small class="text-white">&copy; 2020 <a class="text-white" href="#">scristian</a>. Todos los derechos reservados</small>
+          </div>
+
+          <div class="col-md-4 align-self-center">
+            <ul class="list-inline text-center text-md-right mb-0">
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <a class="text-white" target="_blank" href="https://www.facebook.com/htmlstream">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Instagram">
+                <a class="text-white" target="_blank" href="https://www.instagram.com/htmlstream">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <a class="text-white" target="_blank" href="https://twitter.com/htmlstream">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Dribbble">
+                <a class="text-white" target="_blank" href="https://dribbble.com/htmlstream">
+                  <i class="fab fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+	</footer>
+	{% endblock %}
+    <!-- End Footer -->
+  {% block login_page %} {% endblock  %}
+  {% block services %} {% endblock  %}
+    <!-- Call Us Modal Window -->
+    <div class="modal fade" id="callUsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <form action="#">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">We'll call you</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group mb-4">
+                <input type="text" class="form-control" id="modalName" placeholder="Your Name">
+              </div>
+              <div class="form-group mb-4">
+                <input type="tel" class="form-control" id="modalPhone" placeholder="Your Phone Number">
+              </div>
+              <div class="text-right">
+                <button type="submit" class="btn btn-primary">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Call Us Modal Window -->
+
+    <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
+    <!-- Global Vendor -->
+    <script src="{% static 'base/vendor/jquery.min.js' %}"></script>
+    <script src="{% static 'base/vendor/jquery.migrate.min.js' %}"></script>
+    <script src="{% static 'base/vendor/popper.min.js' %}"></script>
+    <script src="{% static 'base/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+
+    <!-- Components Vendor  -->
+    <script src="{% static 'base/vendor/jquery.parallax.js' %}"></script>
+    <script src="{% static 'base/vendor/typedjs/typed.min.js' %}"></script>
+    <script src="{% static 'base/vendor/slick-carousel/slick.min.js' %}"></script>
+    <script src="{% static 'base/vendor/counters/waypoint.min.js' %}"></script>
+    <script src="{% static 'base/vendor/counters/counterup.min.js' %}"></script>
+    <script src="{% static 'base/vendor/shuffle/jquery.shuffle.min.js' %}"></script>
+    <script src="{% static 'base/js/vendors/shuffle.js' %}"></script>
+    <!-- Theme Settings and Calls -->
+    <script src="{% static 'base/js/global.js' %}"></script>
+
+    <!-- Theme Components and Settings -->
+    <script src="{% static 'base/js/vendors/parallax.js' %}"></script>
+    <script src="{% static 'base/js/vendors/carousel.js' %}"></script>
+    <script src="{% static 'base/js/vendors/counters.js' %}"></script>
+    <!-- END JAVASCRIPTS -->
+    <script src="{% static 'base/particulas/js/particles.js' %}"></script>
+    <script src="{% static 'base/particulas/js/app.js' %}"></script>
+
+
+
+
+    
+   
+    
+ 
+    <!-- END JAVASCRIPTS portafolio -->
+
+    <script>
+      $(document).on('ready', function () {
+        // initialization of text animation (typing)
+        $(".js-display-typing").typed({
+          strings: [
+            "reparación de compútadoras",
+            "Trabajos para instituciones",
+            "Teinda de regalos y namualidades",
+            "Artículos de librería",
+          ],
+          typeSpeed: 60,
+          loop: true,
+          backDelay: 2500
+        });
+      });
+	</script>
+	<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 5000); // Change image every 2 seconds
+    }
+    </script>
+
+
+
+	{% block js_page %} {% endblock %}
+  </body>
+  <!-- End Body -->
+</html>

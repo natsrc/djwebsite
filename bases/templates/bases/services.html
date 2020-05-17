@@ -1,0 +1,211 @@
+{% extends 'base/base2.html' %}
+{% block page_content %} {% endblock %}
+{% block contact %} {% endblock %}
+{% block services %}
+ <!-- Navbar -->
+ <nav class="js-navbar-scroll navbar fixed-top navbar-expand-lg navbar-dark">
+        
+  <div class="container-fluid">
+    <a class="navbar-brand" href="home-page.html">
+      <img src="../static/base/img/logo-white.png" alt="Stream UI Kit" style="width: 100px;">
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo"
+
+            aria-controls="navbarTogglerDemo"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+      <ul class="navbar-nav mt-2 mt-lg-0">
+        <li class="nav-item mr-4 mb-2 mb-lg-0">
+          <a class="nav-link active" href="index.html">MultiServicios S.A.C</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item mr-4 mb-2 mb-lg-0">
+          <a class="nav-link active" href="/">Home</a>
+        </li>
+        <li class="nav-item dropdown mr-4 mb-2 mb-lg-0">
+          <a class="nav-link" href="/shop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tienda <i class="fas fa-angle-down small ml-1"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/shop">Tienda </a>
+            <a class="dropdown-item" href="about-me.html">Carrito</a>
+            <a class="dropdown-item" href="about-me.html">Favoritos</a>
+            <a class="dropdown-item" href="about-me.html">Lista de productos</a>
+          </div>
+        </li>
+        <li class="nav-item mr-4 mb-2 mb-lg-0">
+          <a class="nav-link" href="">Servicios</a>
+        </li>
+        <li class="nav-item dropdown mr-4 mb-2 mb-lg-0">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Acerca de <i class="fas fa-angle-down small ml-1"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="about-us.html">Sobre nosotros </a>
+            <a class="dropdown-item" href="about-me.html">Misión</a>
+            <a class="dropdown-item" href="about-me.html">Visión</a>
+          </div>
+        </li>
+        <li class="nav-item mr-4 mb-2 mb-lg-0">
+          <a class="nav-link" href="/contacts">Contactos</a>
+        </li>
+        <li class="nav-item cta cta-colored"><a href="" class="nav-link"><i class="fas fa-shopping-cart"></i>[0]  </a></li>
+      </ul>
+      <div>
+        <a class="btn btn-primary" data-toggle="modal" href="#callUsModal">
+          <i class="fas fa-phone-square mr-1"></i> Contáctenos
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id="particles-js" style="position: absolute; left: 10px; top: 2px; z-index: 1;width: 100%; height: 50%;"></div>
+<!-- End Navbar -->
+     <!-- Promo Block -->
+     <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-white" style="background-image: url(../static/base/img-temp/1920x1080/img7.jpg);">
+      <!-- Promo Content -->
+      <div class="container u-overlay__inner u-ver-center u-content-space">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="text-center">
+              <h1 class="display-sm-4 display-lg-3">Nuestos servicios</h1>
+              <p class="h6 text-uppercase u-letter-spacing-sm mb-0">It is good to meet you</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Promo Content -->
+    </section>
+    <!-- End Promo Block -->
+  
+  <!-- Bonus Files -->
+  
+  <section class="js-parallax bg-light u-content-space" style="background-image: url(../static/base/img/bg-pattern.png);" >
+    <div class="container">
+      <header class="w-md-50 mx-auto text-center mb-8">
+        <h2 class="h1 font-weight-light mb-1">Nuestros servicios</h2>
+        <p class="mb-4">sistemas sistemas</p>
+      </header>
+
+      <!-- Images -->
+      <div class="row">
+        <div class="col-lg-5 align-self-center pr-lg-5 mb-5 mb-lg-0">
+          <h2 class="font-weight-light mb-3">Free Images</h2>
+          <p>All images are used from <strong class="text-primary">Unsplash</strong> and we included 100% all image sources in our download package. In addition, all images can be easily accessed in our Unsplash collection.</p>
+          <p>Access all images used in Stream - UI Kit for free.</p>
+          <a class="btn btn-outline-primary" target="_blank" href="https://unsplash.com/collections/1572580/stream-ui-kit">
+            <i class="fas fa-camera mr-2"></i> Free Use &amp; Download
+          </a>
+        </div>
+
+        <div class="col-lg-7 order-first order-lg-last mb-4 mb-lg-0">
+          <!-- Mockup Browser -->
+          <figure>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 857 40" style="enable-background:new 0 0 857 40;" xml:space="preserve">
+              <g>
+                <path style="fill: #fff;" d="M856.8,40.2H0.8V19c0-10.5,8.5-19,19-19h818c10.5,0,19,8.5,19,19V40.2z"/>
+              </g>
+              <g>
+                <ellipse style="fill: #fb4143;" cx="28.5" cy="20.1" rx="6" ry="6"/>
+                <ellipse style="fill: #fab633;" cx="48.4" cy="20.1" rx="6" ry="6"/>
+                <ellipse style="fill: #0dd157;" cx="68.4" cy="20.1" rx="6" ry="6"/>
+              </g>
+            </svg>
+          </figure>
+          <!-- End Mockup Browser -->
+
+          <a target="_blank" href="https://unsplash.com/collections/1572580/stream-ui-kit">
+            <img class="img-fluid w-100 u-browser-img u-box-shadow-lg" src="../static/base/img-temp/bonus/stream-unsplash.jpg" alt="Unsplash Stream UI Kit Collection">
+          </a>
+        </div>
+      </div>
+      <!-- End Images -->
+
+      <hr class="my-8">
+
+      <!-- Icons -->
+      <div class="row">
+        <div class="col-lg-7 mb-4 mb-lg-0">
+          <!-- Mockup Browser -->
+          <figure>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 857 40" style="enable-background:new 0 0 857 40;" xml:space="preserve">
+              <g>
+                <path style="fill: #fff;" d="M856.8,40.2H0.8V19c0-10.5,8.5-19,19-19h818c10.5,0,19,8.5,19,19V40.2z"/>
+              </g>
+              <g>
+                <ellipse style="fill: #fb4143;" cx="28.5" cy="20.1" rx="6" ry="6"/>
+                <ellipse style="fill: #fab633;" cx="48.4" cy="20.1" rx="6" ry="6"/>
+                <ellipse style="fill: #0dd157;" cx="68.4" cy="20.1" rx="6" ry="6"/>
+              </g>
+            </svg>
+          </figure>
+          <!-- End Mockup Browser -->
+
+          <a target="_blank" href="https://fontawesome.com/icons?d=gallery&m=free">
+            <img class="img-fluid w-100 u-browser-img u-box-shadow-lg" src="../static/base/img-temp/bonus/stream-icons.jpg" alt="Font Awesome Icons">
+          </a>
+        </div>
+
+        <div class="col-lg-5 align-self-center pl-lg-5">
+          <h2 class="font-weight-light mb-3">950+ Icons</h2>
+          <p>We used <strong class="text-primary">Font Awesome</strong> icons, the web’s most popular icon set and toolkit. It includes over 950 free icons suitable for any needs.</p>
+          <p>Access to 950+ free icons used in Stream - UI Kit.</p>
+          <a class="btn btn-outline-primary" target="_blank" href="https://fontawesome.com/icons?d=gallery&m=free">
+            <i class="fab fa-font-awesome-flag mr-2"></i> Font Awesome Icons
+          </a>
+        </div>
+      </div>
+      <!-- End Icons -->
+
+      <hr class="my-8">
+
+      <!-- Modern Tools -->
+      <div class="row u-content-space-bottom">
+        <div class="col-lg-5 align-self-center pr-lg-5 mb-5 mb-lg-0">
+          <h2 class="font-weight-light mb-3">Modern Toolkit</h2>
+          <p>Built with modern tools and approaches. We have included all <strong class="text-primary">SASS</strong> source files along with <strong class="text-primary">Gulp</strong> files. Change the primary color within a single line and do more with the power of SASS.</p>
+          <p>Learn more how to install and use these tools.</p>
+          <a class="btn btn-outline-primary" target="_blank" href="https://htmlstream.com/public/preview/stream-ui-kit/docs.html">
+            <i class="fas fa-book mr-2"></i> Read More in Docs
+          </a>
+        </div>
+
+        <div class="col-lg-7 order-first order-lg-last mb-4 mb-lg-0">
+          <!-- Mockup Browser -->
+          <figure>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 857 40" style="enable-background:new 0 0 857 40;" xml:space="preserve">
+              <g>
+                <path style="fill: #fff;" d="M856.8,40.2H0.8V19c0-10.5,8.5-19,19-19h818c10.5,0,19,8.5,19,19V40.2z"/>
+              </g>
+              <g>
+                <ellipse style="fill: #fb4143;" cx="28.5" cy="20.1" rx="6" ry="6"/>
+                <ellipse style="fill: #fab633;" cx="48.4" cy="20.1" rx="6" ry="6"/>
+                <ellipse style="fill: #0dd157;" cx="68.4" cy="20.1" rx="6" ry="6"/>
+              </g>
+            </svg>
+          </figure>
+          <!-- End Mockup Browser -->
+
+          <a target="_blank" href="https://htmlstream.com/public/preview/stream-ui-kit/docs.html">
+            <img class="img-fluid w-100 u-browser-img u-box-shadow-lg" src="../static/base/img-temp/bonus/stream-sources.jpg" alt="Unsplash Stream UI Kit Collection">
+          </a>
+        </div>
+      </div>
+      <!-- End Modern Tools -->
+    </div>
+  </section>
+
+  <!-- End Bonus Files -->
+{% endblock %}

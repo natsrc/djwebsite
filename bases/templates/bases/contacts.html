@@ -1,0 +1,169 @@
+{% extends 'base/base2.html' %}
+{% block page_content %}{% endblock %}
+{% block services %} {% endblock %}
+{% block contact %}
+ <!-- Navbar -->
+ <nav class="js-navbar-scroll navbar fixed-top navbar-expand-lg navbar-dark">
+        
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home-page.html">
+        <img src="../static/base/img/logo-white.png" alt="Stream UI Kit" style="width: 100px;">
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo"
+
+              aria-controls="navbarTogglerDemo"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item mr-4 mb-2 mb-lg-0">
+            <a class="nav-link active" href="index.html">MultiServicios S.A.C</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item mr-4 mb-2 mb-lg-0">
+            <a class="nav-link active" href="/">Home</a>
+          </li>
+          <li class="nav-item dropdown mr-4 mb-2 mb-lg-0">
+            <a class="nav-link" href="/shop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tienda <i class="fas fa-angle-down small ml-1"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/shop">Tienda </a>
+              <a class="dropdown-item" href="about-me.html">Carrito</a>
+              <a class="dropdown-item" href="about-me.html">Favoritos</a>
+              <a class="dropdown-item" href="about-me.html">Lista de productos</a>
+            </div>
+          </li>
+          <li class="nav-item mr-4 mb-2 mb-lg-0">
+            <a class="nav-link" href="/services">Servicios</a>
+          </li>
+          <li class="nav-item dropdown mr-4 mb-2 mb-lg-0">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Acerca de <i class="fas fa-angle-down small ml-1"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about-us.html">Sobre nosotros </a>
+              <a class="dropdown-item" href="about-me.html">Misión</a>
+              <a class="dropdown-item" href="about-me.html">Visión</a>
+            </div>
+          </li>
+          <li class="nav-item mr-4 mb-2 mb-lg-0">
+            <a class="nav-link" href="">Contactos</a>
+          </li>
+          <li class="nav-item cta cta-colored"><a href="" class="nav-link"><i class="fas fa-shopping-cart"></i>[0]  </a></li>
+        </ul>
+        <div>
+          <a class="btn btn-primary" data-toggle="modal" href="#callUsModal">
+            <i class="fas fa-phone-square mr-1"></i> Contáctenos
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+<div id="particles-js" style="position: absolute; left: 10px; top: 2px; z-index: 1;width: 100%; height: 50%;"></div>
+  <!-- End Navbar -->
+  <!-- Promo Block -->
+  <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-white" style="background-image: url(../static/base/img-temp/1920x1080/img7.jpg);">
+    <!-- Promo Content -->
+    <div class="container u-overlay__inner u-ver-center u-content-space">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="text-center">
+            <h1 class="display-sm-4 display-lg-3">Contáctenos?</h1>
+            <p class="h6 text-uppercase u-letter-spacing-sm mb-0">Es bueno conocerte</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Promo Content -->
+  </section>
+  <!-- End Promo Block -->
+</header>
+<!-- End Header -->
+
+<main role="main">
+  <!-- Icon Block -->
+  <section class="container-fluid">
+    <div class="row text-center u-icon-block">
+      <!-- Icon Block Column -->
+      <div class="col-lg-4 u-icon-block__col">
+        <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+          <span class="fas fa-map u-icon__inner text-white"></span>
+        </span>
+        <h3 class="h5">Ciudad</h3>
+        <p class="mb-0">santotito</p>
+      </div>
+      <!-- End Icon Block Column -->
+
+      <!-- Icon Block Column -->
+      <div class="col-lg-4 u-icon-block__col u-icon-block__col--left-brd">
+        <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+          <span class="fas fa-mobile u-icon__inner text-white"></span>
+        </span>
+        <h3 class="h5">Teléfono</h3>
+        <p class="mb-0">1-800-643-4500</p>
+      </div>
+      <!-- End Icon Block Column -->
+
+      <!-- Icon Block Column -->
+      <div class="col-lg-4 u-icon-block__col u-icon-block__col--left-brd">
+        <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+          <span class="fas fa-envelope-open u-icon__inner text-white"></span>
+        </span>
+        <h3 class="h5">Email</h3>
+        <p class="mb-0">mail@gmail.com</p>
+      </div>
+      <!-- End Icon Block Column -->
+    </div>
+  </section>
+  <!-- End Icon Block -->
+<main role="main">
+   
+
+    <!-- Contact Form -->
+    <section class="u-content-space">
+      <div class="container">
+        <header class="text-center w-md-50 mx-auto mb-8">
+          <h2 class="h1">Tell us about yourself</h2>
+          <p class="h5">Your business needs a little push. We strive to figure out ways to help your audience grow.</p>
+        </header>
+
+        <form class="text-center w-md-75 mx-auto" action="#">
+          <div class="row">
+            <div class="col-lg-6 form-group mb-4">
+              <input class="form-control form-control-lg" placeholder="Name" type="text">
+            </div>
+
+            <div class="col-lg-6 form-group mb-4">
+              <input class="form-control form-control-lg" placeholder="Email" type="email">
+            </div>
+
+            <div class="col-lg-6 form-group mb-4">
+              <input class="form-control form-control-lg" placeholder="Subject" type="text">
+            </div>
+
+            <div class="col-lg-6 form-group mb-4">
+              <input class="form-control form-control-lg" placeholder="Phone" type="tel">
+            </div>
+
+            <div class="col-lg-12 form-group mb-6">
+              <textarea class="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button class="btn btn-lg btn-primary py-3 px-4" type="submit">Send Your Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Contact Form -->
+{% endblock %}
